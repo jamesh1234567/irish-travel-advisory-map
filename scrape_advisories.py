@@ -3,6 +3,12 @@ Irish Travel Advisory Scraper
 Collects travel advisory data from the Irish Department of Foreign Affairs website.
 """
 
+"""
+DISCLAIMER: This script is for educational purposes only. 
+Do not run repeated automated requests against the DFA website. 
+Respect terms of service and ethical scraping practices.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
