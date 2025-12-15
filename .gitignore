@@ -41,3 +41,5 @@ Thumbs.db
 # Project specific - don't commit the HTML (it's large)
 *.html
 countries.json
+
+!index.html
