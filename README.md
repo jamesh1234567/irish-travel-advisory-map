@@ -87,4 +87,4 @@ MIT License - see LICENSE file for details.
 
 ## Last Updated
 
-Data last scraped: [Add date when you run it]
+Data last scraped: 15 Dec 2025
