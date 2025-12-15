@@ -87,20 +87,39 @@ def get_advisory_level(url):
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Extract all text from the page
-        page_text = soup.get_text().lower()
+        # Look for the specific advisory accordion element
+        # The DFA website uses: <div class="accordion_travel [level] accordion is-open">
+        advisory_div = soup.find('div', class_='accordion_travel')
         
-        # Check for each level in order of severity (highest to lowest)
-        if 'do not travel' in page_text:
-            return 4
-        elif 'avoid non-essential travel' in page_text or 'avoid unnecessary travel' in page_text:
-            return 3
-        elif 'high degree of caution' in page_text:
-            return 2
-        elif 'normal precautions' in page_text or 'normal security precautions' in page_text:
-            return 1
-        else:
-            return None
+        if advisory_div:
+            classes = advisory_div.get('class', [])
+            classes_str = ' '.join(classes).lower()
+            
+            # Check the class name for the advisory level
+            if 'do-not-travel' in classes_str:
+                return 4
+            elif 'avoid-non-essential-travel' in classes_str or 'avoid-unnecessary-travel' in classes_str:
+                return 3
+            elif 'high-degree-of-caution' in classes_str or 'high-degree-caution' in classes_str:
+                return 2
+            elif 'normal-precautions' in classes_str:
+                return 1
+        
+        # Fallback: Look for the h3 title within the accordion
+        accordion_title = soup.find('h3', class_='accordion__title')
+        if accordion_title:
+            title_text = accordion_title.get_text().strip().lower()
+            
+            if 'do not travel' in title_text:
+                return 4
+            elif 'avoid non-essential travel' in title_text or 'avoid unnecessary travel' in title_text:
+                return 3
+            elif 'high degree of caution' in title_text:
+                return 2
+            elif 'normal precautions' in title_text:
+                return 1
+        
+        return None
             
     except Exception as e:
         print(f"  Error: {e}")
