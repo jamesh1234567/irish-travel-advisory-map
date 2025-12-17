@@ -152,6 +152,8 @@ def standardize_country_name(country):
         "Cote D'ivoire": "Côte d'Ivoire",
         'Ivory Coast': "Côte d'Ivoire",
         'Burma': 'Myanmar',
+        'Türkiye': 'Turkey',
+        'Turkiye': 'Turkey',
         'Cape Verde': 'Cabo Verde',
         'East Timor': 'Timor-Leste',
         'Laos': 'Lao PDR',
