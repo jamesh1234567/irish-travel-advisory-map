@@ -2,7 +2,7 @@ country,url,advisory_level,country_standardized,advisory_label
 Spain,https://www.ireland.ie/en/dfa/overseas-travel/advice/spain/,1.0,Spain,Normal Precautions
 Great Britain,https://www.ireland.ie/en/dfa/overseas-travel/advice/great-britain/,1.0,Great Britain,Normal Precautions
 Portugal,https://www.ireland.ie/en/dfa/overseas-travel/advice/portugal/,1.0,Portugal,Normal Precautions
-Turkiye,https://www.ireland.ie/en/dfa/overseas-travel/advice/turkiye/,2.0,Turkiye,High Degree of Caution
+Turkiye,https://www.ireland.ie/en/dfa/overseas-travel/advice/turkiye/,2.0,Turkey,High Degree of Caution
 France,https://www.ireland.ie/en/dfa/overseas-travel/advice/france/,1.0,France,Normal Precautions
 Germany,https://www.ireland.ie/en/dfa/overseas-travel/advice/germany/,1.0,Germany,Normal Precautions
 United States Of America,https://www.ireland.ie/en/dfa/overseas-travel/advice/united-states-of-america/,1.0,United States,Normal Precautions
@@ -20,7 +20,7 @@ Australia,https://www.ireland.ie/en/dfa/overseas-travel/advice/australia/,1.0,Au
 Austria,https://www.ireland.ie/en/dfa/overseas-travel/advice/austria/,1.0,Austria,Normal Precautions
 Azerbaijan,https://www.ireland.ie/en/dfa/overseas-travel/advice/azerbaijan/,2.0,Azerbaijan,High Degree of Caution
 Bahamas,https://www.ireland.ie/en/dfa/overseas-travel/advice/bahamas/,1.0,Bahamas,Normal Precautions
-Bahrain,https://www.ireland.ie/en/dfa/overseas-travel/advice/bahrain/,2.0,Bahrain,High Degree of Caution
+Bahrain,https://www.ireland.ie/en/dfa/overseas-travel/advice/bahrain/,3.0,Bahrain,Avoid Unnecessary Travel
 Bangladesh,https://www.ireland.ie/en/dfa/overseas-travel/advice/bangladesh/,2.0,Bangladesh,High Degree of Caution
 Barbados,https://www.ireland.ie/en/dfa/overseas-travel/advice/barbados/,1.0,Barbados,Normal Precautions
 Belarus,https://www.ireland.ie/en/dfa/overseas-travel/advice/belarus/,4.0,Belarus,Do Not Travel
@@ -55,7 +55,7 @@ Cook Islands,https://www.ireland.ie/en/dfa/overseas-travel/advice/cook-islands/,
 Costa Rica,https://www.ireland.ie/en/dfa/overseas-travel/advice/costa-rica/,2.0,Costa Rica,High Degree of Caution
 Cote Divoire,https://www.ireland.ie/en/dfa/overseas-travel/advice/cote-divoire/,2.0,Cote Divoire,High Degree of Caution
 Croatia,https://www.ireland.ie/en/dfa/overseas-travel/advice/croatia/,1.0,Croatia,Normal Precautions
-Cuba,https://www.ireland.ie/en/dfa/overseas-travel/advice/cuba/,1.0,Cuba,Normal Precautions
+Cuba,https://www.ireland.ie/en/dfa/overseas-travel/advice/cuba/,3.0,Cuba,Avoid Unnecessary Travel
 Cyprus,https://www.ireland.ie/en/dfa/overseas-travel/advice/cyprus/,1.0,Cyprus,Normal Precautions
 Czech Republic,https://www.ireland.ie/en/dfa/overseas-travel/advice/czech-republic/,1.0,Czechia,Normal Precautions
 Denmark,https://www.ireland.ie/en/dfa/overseas-travel/advice/denmark/,1.0,Denmark,Normal Precautions
@@ -85,7 +85,7 @@ Grenada,https://www.ireland.ie/en/dfa/overseas-travel/advice/grenada/,1.0,Grenad
 Guadeloupe,https://www.ireland.ie/en/dfa/overseas-travel/advice/guadeloupe/,2.0,Guadeloupe,High Degree of Caution
 Guatemala,https://www.ireland.ie/en/dfa/overseas-travel/advice/guatemala/,2.0,Guatemala,High Degree of Caution
 Guinea,https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea/,2.0,Guinea,High Degree of Caution
-Guinea Bissau,https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/,3.0,Guinea Bissau,Avoid Unnecessary Travel
+Guinea Bissau,https://www.ireland.ie/en/dfa/overseas-travel/advice/guinea-bissau/,2.0,Guinea Bissau,High Degree of Caution
 Guyana,https://www.ireland.ie/en/dfa/overseas-travel/advice/guyana/,2.0,Guyana,High Degree of Caution
 Haiti,https://www.ireland.ie/en/dfa/overseas-travel/advice/haiti/,4.0,Haiti,Do Not Travel
 Honduras,https://www.ireland.ie/en/dfa/overseas-travel/advice/honduras/,2.0,Honduras,High Degree of Caution
@@ -95,21 +95,21 @@ India,https://www.ireland.ie/en/dfa/overseas-travel/advice/india/,2.0,India,High
 Indonesia,https://www.ireland.ie/en/dfa/overseas-travel/advice/indonesia/,2.0,Indonesia,High Degree of Caution
 Iran,https://www.ireland.ie/en/dfa/overseas-travel/advice/iran/,4.0,Iran,Do Not Travel
 Iraq,https://www.ireland.ie/en/dfa/overseas-travel/advice/iraq/,4.0,Iraq,Do Not Travel
-Israel,https://www.ireland.ie/en/dfa/overseas-travel/advice/israel/,2.0,Israel,High Degree of Caution
+Israel,https://www.ireland.ie/en/dfa/overseas-travel/advice/israel/,3.0,Israel,Avoid Unnecessary Travel
 Jamaica,https://www.ireland.ie/en/dfa/overseas-travel/advice/jamaica/,2.0,Jamaica,High Degree of Caution
 Japan,https://www.ireland.ie/en/dfa/overseas-travel/advice/japan/,1.0,Japan,Normal Precautions
-Jordan,https://www.ireland.ie/en/dfa/overseas-travel/advice/jordan/,2.0,Jordan,High Degree of Caution
+Jordan,https://www.ireland.ie/en/dfa/overseas-travel/advice/jordan/,3.0,Jordan,Avoid Unnecessary Travel
 Kazakhstan,https://www.ireland.ie/en/dfa/overseas-travel/advice/kazakhstan/,2.0,Kazakhstan,High Degree of Caution
 Kenya,https://www.ireland.ie/en/dfa/overseas-travel/advice/kenya/,2.0,Kenya,High Degree of Caution
 Kiribati,https://www.ireland.ie/en/dfa/overseas-travel/advice/kiribati/,1.0,Kiribati,Normal Precautions
 Democratic Republic Of Korea,https://www.ireland.ie/en/dfa/overseas-travel/advice/democratic-republic-of-korea/,3.0,Democratic Republic Of Korea,Avoid Unnecessary Travel
 Republic Of Korea,https://www.ireland.ie/en/dfa/overseas-travel/advice/republic-of-korea/,1.0,South Korea,Normal Precautions
 Kosovo,https://www.ireland.ie/en/dfa/overseas-travel/advice/kosovo/,1.0,Kosovo,Normal Precautions
-Kuwait,https://www.ireland.ie/en/dfa/overseas-travel/advice/kuwait/,2.0,Kuwait,High Degree of Caution
+Kuwait,https://www.ireland.ie/en/dfa/overseas-travel/advice/kuwait/,3.0,Kuwait,Avoid Unnecessary Travel
 Kyrgyzstan,https://www.ireland.ie/en/dfa/overseas-travel/advice/kyrgyzstan/,2.0,Kyrgyzstan,High Degree of Caution
 Laos,https://www.ireland.ie/en/dfa/overseas-travel/advice/laos/,1.0,Lao PDR,Normal Precautions
 Latvia,https://www.ireland.ie/en/dfa/overseas-travel/advice/latvia/,1.0,Latvia,Normal Precautions
-Lebanon,https://www.ireland.ie/en/dfa/overseas-travel/advice/lebanon/,3.0,Lebanon,Avoid Unnecessary Travel
+Lebanon,https://www.ireland.ie/en/dfa/overseas-travel/advice/lebanon/,4.0,Lebanon,Do Not Travel
 Lesotho,https://www.ireland.ie/en/dfa/overseas-travel/advice/lesotho/,2.0,Lesotho,High Degree of Caution
 Liberia,https://www.ireland.ie/en/dfa/overseas-travel/advice/liberia/,2.0,Liberia,High Degree of Caution
 Libya,https://www.ireland.ie/en/dfa/overseas-travel/advice/libya/,4.0,Libya,Do Not Travel
@@ -158,7 +158,7 @@ Peru,https://www.ireland.ie/en/dfa/overseas-travel/advice/peru/,2.0,Peru,High De
 Philippines,https://www.ireland.ie/en/dfa/overseas-travel/advice/philippines/,2.0,Philippines,High Degree of Caution
 Poland,https://www.ireland.ie/en/dfa/overseas-travel/advice/poland/,1.0,Poland,Normal Precautions
 Puerto Rico,https://www.ireland.ie/en/dfa/overseas-travel/advice/puerto-rico/,1.0,Puerto Rico,Normal Precautions
-Qatar,https://www.ireland.ie/en/dfa/overseas-travel/advice/qatar/,2.0,Qatar,High Degree of Caution
+Qatar,https://www.ireland.ie/en/dfa/overseas-travel/advice/qatar/,3.0,Qatar,Avoid Unnecessary Travel
 Reunion,https://www.ireland.ie/en/dfa/overseas-travel/advice/reunion/,2.0,Reunion,High Degree of Caution
 Romania,https://www.ireland.ie/en/dfa/overseas-travel/advice/romania/,1.0,Romania,Normal Precautions
 Russian Federation,https://www.ireland.ie/en/dfa/overseas-travel/advice/russian-federation/,4.0,Russian Federation,Do Not Travel
@@ -168,7 +168,7 @@ Saint Lucia,https://www.ireland.ie/en/dfa/overseas-travel/advice/saint-lucia/,1.
 Saint Tome Sao Tome And Principe,https://www.ireland.ie/en/dfa/overseas-travel/advice/saint-tome-sao-tome-and-principe/,2.0,Saint Tome Sao Tome And Principe,High Degree of Caution
 Saint Vincent And The Grenadines,https://www.ireland.ie/en/dfa/overseas-travel/advice/saint-vincent-and-the-grenadines/,1.0,Saint Vincent And The Grenadines,Normal Precautions
 Samoa,https://www.ireland.ie/en/dfa/overseas-travel/advice/samoa/,1.0,Samoa,Normal Precautions
-Saudi Arabia,https://www.ireland.ie/en/dfa/overseas-travel/advice/saudi-arabia/,2.0,Saudi Arabia,High Degree of Caution
+Saudi Arabia,https://www.ireland.ie/en/dfa/overseas-travel/advice/saudi-arabia/,3.0,Saudi Arabia,Avoid Unnecessary Travel
 Senegal,https://www.ireland.ie/en/dfa/overseas-travel/advice/senegal/,2.0,Senegal,High Degree of Caution
 Serbia,https://www.ireland.ie/en/dfa/overseas-travel/advice/serbia/,1.0,Serbia,Normal Precautions
 Seychelles,https://www.ireland.ie/en/dfa/overseas-travel/advice/seychelles/,1.0,Seychelles,Normal Precautions
@@ -195,13 +195,12 @@ Togo,https://www.ireland.ie/en/dfa/overseas-travel/advice/togo/,2.0,Togo,High De
 Tonga,https://www.ireland.ie/en/dfa/overseas-travel/advice/tonga/,1.0,Tonga,Normal Precautions
 Trinidad And Tobago,https://www.ireland.ie/en/dfa/overseas-travel/advice/trinidad-and-tobago/,2.0,Trinidad And Tobago,High Degree of Caution
 Tunisia,https://www.ireland.ie/en/dfa/overseas-travel/advice/tunisia/,2.0,Tunisia,High Degree of Caution
-Turkey,https://www.ireland.ie/en/dfa/overseas-travel/advice/turkiye/,2.0,Turkey,High Degree of Caution
 Turkmenistan,https://www.ireland.ie/en/dfa/overseas-travel/advice/turkmenistan/,2.0,Turkmenistan,High Degree of Caution
 Turks And Caicos Islands,https://www.ireland.ie/en/dfa/overseas-travel/advice/turks-and-caicos-islands/,1.0,Turks And Caicos Islands,Normal Precautions
 Tuvalu,https://www.ireland.ie/en/dfa/overseas-travel/advice/tuvalu/,1.0,Tuvalu,Normal Precautions
 Uganda,https://www.ireland.ie/en/dfa/overseas-travel/advice/uganda/,2.0,Uganda,High Degree of Caution
 Ukraine,https://www.ireland.ie/en/dfa/overseas-travel/advice/ukraine/,4.0,Ukraine,Do Not Travel
-United Arab Emirates,https://www.ireland.ie/en/dfa/overseas-travel/advice/united-arab-emirates/,2.0,United Arab Emirates,High Degree of Caution
+United Arab Emirates,https://www.ireland.ie/en/dfa/overseas-travel/advice/united-arab-emirates/,3.0,United Arab Emirates,Avoid Unnecessary Travel
 Uruguay,https://www.ireland.ie/en/dfa/overseas-travel/advice/uruguay/,1.0,Uruguay,Normal Precautions
 Uzbekistan,https://www.ireland.ie/en/dfa/overseas-travel/advice/uzbekistan/,2.0,Uzbekistan,High Degree of Caution
 Vanuatu,https://www.ireland.ie/en/dfa/overseas-travel/advice/vanuatu/,1.0,Vanuatu,Normal Precautions
